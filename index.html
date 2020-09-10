@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ecommerce</title>
+    
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/all.css">
+    <style>
+        .rating ul li i {
+            color: orange;
+        }
+        a {
+            color: grey;
+        }
+        a:hover {
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- header section -->
+    <header>
+        <!-- first header -->
+        <div class="container mt-2">
+            <div class="row">
+                <!-- logo -->
+                <div class="col-2 col-sm-1 col-lg-1">
+                    <img src="assets/images/logo.png" alt="logo" width="48" height="48">
+                </div>
+                <!-- search bar -->
+                <div class="col-10 col-sm-6 col-lg-7">
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2 w-75" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-primary my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+                    </form>
+                </div>
+                <!-- account -->
+                <div class="col-12 col-sm-5 col-lg-4">
+                    <div class="container">
+                        <div class="row">
+                            <!-- user icon -->
+                            <div class="col-5 col-sm-6">
+                                <i class="fas fa-shopping-cart" style="font-size: 2em"></i>
+                                <i class="fas fa-user pl-3" style="font-size: 2em"></i>
+                            </div>
+                            <!-- register -->
+                            <div class="col-7 col-sm-6 p-0">
+                                <p class="text-muted m-0">Wellcome!</p>
+                                <div>
+                                    <a href="#">Sign in</a>
+                                    |
+                                    <a href="#">Register</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- second header -->
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fas fa-bars d-none d-sm-inline d-lg-inline"></i> Semua Kategori
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">PlayStation</a>
+                                        <a class="dropdown-item" href="#">Xbox</a>
+                                        <a class="dropdown-item" href="#">Nintendo Switch</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">PlayStation</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">PC</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">VR</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        
+    </header>
+    
+    <!-- intro section -->
+    
+    <section id="intro" class="container">
+        <div class="row">
+            <div class="col-12">
+                <img src="assets/images/ps.jpg" alt="ps" class="img-fluid">
+            </div>
+        </div>
+    </section>
+    
+    <!-- services section -->
+    
+    <section class="container">
+        
+        <div class="card">
+            <div class="card-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-4 col-lg-4">
+                            <i class="fas fa-star fa-3x" style="color: rgb(82, 82, 82);"></i>
+                            <h3 class="h5 mt-4">High Rating</h3>
+                            <p>Produk kami mendapat rating tinggi dari para konsumen sehingga barang dari kami terjamin kualitasnya</p>
+                        </div>
+                        <div class="col-12 col-sm-4 col-lg-4">
+                            <i class="fas fa-globe-americas fa-3x" style="color: rgb(82, 82, 82);"></i>
+                            <h3 class="h5 mt-4">Global Market</h3>
+                            <p>Produk kami mendapat rating tinggi dari para konsumen sehingga barang dari kami terjamin kualitasnya</p>
+                        </div>
+                        <div class="col-12 col-sm-4 col-lg-4">
+                            <i class="fas fa-microchip fa-3x" style="color: rgb(82, 82, 82);"></i>
+                            <h3 class="h5 mt-4">Best System</h3>
+                            <p>Produk kami mendapat rating tinggi dari para konsumen sehingga barang dari kami terjamin kualitasnya</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    
+    <!-- popular section -->
+    
+    <section class="container mt-3">
+        <h3>Produk Terpopuler</h3>
+        <div class="row">
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card">
+                    <img src="assets/images/ps52.jpg" alt="ps5" class="img-fluid">
+                    <div class="card-body">
+                        <a href="#">PlayStation 5</a>
+                        <div class="rating mt-3">
+                            <ul class="list-inline float-left">
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                            </ul>
+                            <span class="pl-3 text-muted">724 Terjual</span>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="harga">
+                            <button type="button" class="btn btn-outline-dark btn-block border-0" disabled>Rp.5.800.000</button>
+                            <button class="btn btn-secondary btn-block" type="button">Buy</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card">
+                    <img src="assets/images/Asus ROG Zephyrus.jpeg" alt="Asus ROG" class="img-fluid">
+                    <div class="card-body">
+                        <a href="#">Asus ROG Zephyrus</a>
+                        <div class="rating mt-3">
+                            <ul class="list-inline float-left">
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                            </ul>
+                            <span class="pl-3 text-muted">547 Terjual</span>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="harga">
+                            <button type="button" class="btn btn-outline-dark btn-block border-0" disabled>Rp.18.800.000</button>
+                            <button class="btn btn-secondary btn-block" type="button">Buy</button>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card">
+                    <img src="assets/images/vr.jpg" alt="VR" class="img-fluid">
+                    <div class="card-body">
+                        <a href="#">VR Box</a>
+                        <div class="rating mt-3">
+                            <ul class="list-inline float-left">
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                            </ul>
+                            <span class="pl-3 text-muted">509 Terjual</span>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="harga">
+                            <button type="button" class="btn btn-outline-dark btn-block border-0" disabled>Rp.900.500</button>
+                            <button class="btn btn-secondary btn-block" type="button">Buy</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card">
+                    <img src="assets/images/nintendo.jpg" alt="nintendo" class="img-fluid">
+                    <div class="card-body">
+                        <a href="#">Nintendo Switch</a>
+                        <div class="rating mt-3">
+                            <ul class="list-inline float-left">
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                            </ul>
+                            <span class="pl-3 text-muted">396 Terjual</span>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="harga">
+                            <button type="button" class="btn btn-outline-dark btn-block border-0" disabled>Rp.5.390.000</button>
+                            <button class="btn btn-secondary btn-block" type="button">Buy</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Arrival Section -->
+    
+    <section class="container mt-3">
+        <h3>Produk Terbaru</h3>
+        <div class="row">
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card">
+                    <img src="assets/images/monitor.jpeg" alt="monitor" class="img-fluid">
+                    <div class="card-body">
+                        <a href="#">Monitor Asus 43 inch</a>
+                        <div class="rating mt-3">
+                            <ul class="list-inline float-left">
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                            </ul>
+                            <span class="pl-3 text-muted">274 Terjual</span>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="harga">
+                            <button type="button" class="btn btn-outline-dark btn-block border-0" disabled>Rp.5.300.000</button>
+                            <button class="btn btn-secondary btn-block" type="button">Buy</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card">
+                    <img src="assets/images/xbox.jpg" alt="ps5" class="img-fluid">
+                    <div class="card-body">
+                        <a href="#">Xbox One</a>
+                        <div class="rating mt-3">
+                            <ul class="list-inline float-left">
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                            </ul>
+                            <span class="pl-3 text-muted">255 Terjual</span>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="harga">
+                            <button type="button" class="btn btn-outline-dark btn-block border-0" disabled>Rp.3.500.000</button>
+                            <button class="btn btn-danger btn-block" type="button" disabled>Stock Habis</button>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card">
+                    <img src="assets/images/ps52.jpg" alt="ps5" class="img-fluid">
+                    <div class="card-body">
+                        <a href="#">PlayStation 5</a>
+                        <div class="rating mt-3">
+                            <ul class="list-inline float-left">
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                            </ul>
+                            <span class="pl-3 text-muted">724 Terjual</span>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="harga">
+                            <button type="button" class="btn btn-outline-dark btn-block border-0" disabled>Rp.5.800.000</button>
+                            <button class="btn btn-secondary btn-block" type="button">Buy</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card">
+                    <img src="assets/images/kanon.png" alt="cannon" class="img-fluid">
+                    <div class="card-body">
+                        <a href="#">Mirrorless Cannon m10</a>
+                        <div class="rating mt-3">
+                            <ul class="list-inline float-left">
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                            </ul>
+                            <span class="pl-3 text-muted">379 Terjual</span>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="harga">
+                            <button type="button" class="btn btn-outline-dark btn-block border-0" disabled>Rp.4.570.000</button>
+                            <button class="btn btn-secondary btn-block" type="button">Buy</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Recommended Section -->
+    
+    <section class="container mt-3">
+        <h3>Rekomendasi</h3>
+        <div class="row">
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card">
+                    <img src="assets/images/Asus ROG Zephyrus.jpeg" alt="Asus ROG" class="img-fluid">
+                    <div class="card-body">
+                        <a href="#">Asus ROG Zephyrus</a>
+                        <div class="rating mt-3">
+                            <ul class="list-inline float-left">
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                            </ul>
+                            <span class="pl-3 text-muted">547 Terjual</span>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="harga">
+                            <button type="button" class="btn btn-outline-dark btn-block border-0" disabled>Rp.18.800.000</button>
+                            <button class="btn btn-secondary btn-block" type="button">Buy</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card">
+                    <img src="assets/images/nintendo.jpg" alt="nintendo" class="img-fluid">
+                    <div class="card-body">
+                        <a href="#">Nintendo Switch</a>
+                        <div class="rating mt-3">
+                            <ul class="list-inline float-left">
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                            </ul>
+                            <span class="pl-3 text-muted">396 Terjual</span>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="harga">
+                            <button type="button" class="btn btn-outline-dark btn-block border-0" disabled>Rp.3.390.000</button>
+                            <button class="btn btn-secondary btn-block" type="button">Buy</button>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card">
+                    <img src="assets/images/kanon.png" alt="cannon" class="img-fluid">
+                    <div class="card-body">
+                        <a href="#">Mirrorless Cannon m10</a>
+                        <div class="rating mt-3">
+                            <ul class="list-inline float-left">
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                            </ul>
+                            <span class="pl-3 text-muted">379 Terjual</span>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="harga">
+                            <button type="button" class="btn btn-outline-dark btn-block border-0" disabled>Rp.4.570.000</button>
+                            <button class="btn btn-secondary btn-block" type="button">Buy</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card">
+                    <img src="assets/images/ps52.jpg" alt="ps5" class="img-fluid">
+                    <div class="card-body">
+                        <a href="#">PlayStation 5</a>
+                        <div class="rating mt-3">
+                            <ul class="list-inline float-left">
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                                <li class="list-inline-item mr-0"><i class="fas fa-star"></i></li>
+                            </ul>
+                            <span class="pl-3 text-muted">724 Terjual</span>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="harga">
+                            <button type="button" class="btn btn-outline-dark btn-block border-0" disabled>Rp.5.800.000</button>
+                            <button class="btn btn-secondary btn-block" type="button">Buy</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- partner section  -->
+    
+    <section class="container mt-3">
+        <h2>Mitra Kami</h2>
+        <div class="row">
+            <div class="col-4 col-sm-2 col-lg-2">
+                <figure class="figure">
+                    <img src="assets/images/logops.png" class="figure-img img-thumbnail rounded" alt="logo">
+                    <figcaption class="figure-caption text-center">PlayStation</figcaption>
+                </figure>
+            </div>
+            <div class="col-4 col-sm-2 col-lg-2">
+                <figure class="figure">
+                    <img src="assets/images/rog.png" class="figure-img img-thumbnail rounded" alt="logo" width="300">
+                    <figcaption class="figure-caption text-center">ROG</figcaption>
+                </figure>
+            </div>
+            <div class="col-4 col-sm-2 col-lg-2">
+                <figure class="figure">
+                    <img src="assets/images/iphone.png" class="figure-img img-thumbnail rounded" alt="logo" width="150">
+                    <figcaption class="figure-caption text-center">Apple</figcaption>
+                </figure>
+            </div>
+            <div class="col-4 col-sm-2 col-lg-2">
+                <figure class="figure">
+                    <img src="assets/images/EA.png" class="figure-img img-thumbnail rounded" alt="logo" width="130">
+                    <figcaption class="figure-caption text-center">EA Games</figcaption>
+                </figure>
+            </div>
+            <div class="col-4 col-sm-2 col-lg-2">
+                <figure class="figure">
+                    <img src="assets/images/audi.png" class="figure-img img-thumbnail rounded" alt="logo" width="300">
+                    <figcaption class="figure-caption text-center">Audi</figcaption>
+                </figure>
+            </div>
+            <div class="col-4 col-sm-2 col-lg-2">
+                <figure class="figure">
+                    <img src="assets/images/logops.png" class="figure-img img-thumbnail rounded" alt="logo">
+                    <figcaption class="figure-caption text-center">PlayStation</figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+    
+    <!-- app section -->
+    
+    <section class="container-fluid mt-3 p-5 bg-light">
+        <h2>Download Aplikasi</h2>
+        <div class="row">
+            <div class="col-6 col-sm-12 col-lg-12">
+                <a href="https://play.google.com/store/apps"><img src="assets/images/googleplay.png" alt="logo" height="100"></a>
+                <a href="https://www.apple.com/id/ios/app-store/"><img src="assets/images/appstore.png" alt="logo" height="55"></a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- footer -->
+    
+    <section class="container mt-3">
+        <div class="row">
+            <div class="col-6 col-sm-3 col-lg-3">
+                <h5>Perusahaan</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">Tentang Kami</a></li>
+                    <li><a href="#">Karir</a></li>
+                    <li><a href="#">Syarat &amp; Ketentuan</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-sm-3 col-lg-3">
+                <h5>Bantuan</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">Garansi</a></li>
+                    <li><a href="#">Info</a></li>
+                    <li><a href="#">Tentang Produk</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-sm-3 col-lg-3">
+                <h5>Akun</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">Akun Pengguna</a></li>
+                    <li><a href="#">Daftar</a></li>
+                    <li><a href="#">Pengaturan Akun</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-sm-3 col-lg-3">
+                <h5>Social Media</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#"><i class="fab fa-facebook text-dark"></i>Facebook</a></li>
+                    <li><a href="#"><i class="fab fa-twitter text-dark"></i>Twitter</a></li>
+                    <li><a href="#"><i class="fab fa-instagram text-dark"></i>Instagram</a></li>
+                    <li><a href="#"><i class="fab fa-youtube text-dark"></i>Youtube</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <section class="container mt-3">
+        <div class="row">
+            <div class="col-12 col-sm-2 col-lg-2">
+                <p>&copy; 2020 Gamer Collection</p>
+            </div>
+            <div class="col-12 col-sm-8 col-lg-8">
+                <ul class="list-inline list-unstyled">
+                    <li class="list-inline-item">Info@GamerCollection</li>
+                    <li class="list-inline-item">+628590537689</li>
+                    <li class="list-inline-item">Green Lake City M 59</li>
+                </ul>
+            </div>   
+            <div class="col-12 col-sm-2 col-lg-2">
+                <i class="fab fa-cc-visa"></i>
+                <i class="fab fa-cc-paypal"></i>
+                <i class="fab fa-cc-mastercard"></i>
+            </div>
+        </div>
+    </section>
+    
+    <!-- <script src="assets/JS/jquery-3.5.1.slim.min.js"></script> -->
+    <script src="assets/JS/jquery-3.5.1.slim.full.js"></script>
+    <script src="assets/JS/popper.min.js"></script>
+    <script src="assets/JS/bootstrap.min.js"></script>
+</body>
+</html>
